@@ -1,9 +1,12 @@
-function name(a,b){
 
+// object method
 
-return a+b;
+const ex ={
+    name:"aminul",
+    f1: function show(){
+         return this.name.toUpperCase();
+    }
 }
 
-let a=name(10,30)+90;
-document.write(a);
+document.write(ex.f1());
 
