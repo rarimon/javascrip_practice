@@ -1,6 +1,8 @@
-let a="aminul";
-let b="islam";
+// let a= 23;
 
-let c=a+b;
+// let b=a.toString();
+// let c=90;
 
-document.write(c);
+// let d=c+b;
+
+// document.write(d); to string
